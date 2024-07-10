@@ -1,0 +1,47 @@
+.search-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 5rem 2rem;
+  background-color: orangered;
+}
+.search-section h1 {
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+  line-height: 1.8;
+  letter-spacing: 2px;
+}
+a {
+  color: #fff;
+}
+.search-section-input,
+.search-section-form-button {
+  padding: 1rem 2rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  border: none;
+  outline: none;
+}
+.meaning {
+    margin: 2rem 0;
+  }
+  
+  .meaning-part-of-speech {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .meanings-ordered-list {
+    list-style-type: decimal;
+    padding-left: 2rem;
+    color: black;
+  }
+  
+  .error {
+    color: red;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+  }
